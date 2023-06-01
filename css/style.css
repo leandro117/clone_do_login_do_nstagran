@@ -1,0 +1,65 @@
+div{
+    margin: 10px auto;
+    border: solid 1px rgb(233, 230, 230);
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    background: url("/img/facebook.png") no-repeat;
+    background-position: 90px 320px;
+}
+
+p, a{
+    text-decoration: none;
+}
+
+input{
+    width: 300px;
+    margin: 2px;
+    height: 25px;
+    background-color: rgb(245, 243, 243);
+}
+
+button{
+    margin: 10px;
+    width: 308px;
+    height: 40px;
+    background: rgb(68, 133, 253);
+    color: white;
+}
+
+h1{
+    margin-bottom: 70px;
+    margin-top: 30px;
+    font-weight: 10px;
+}
+
+#texto1{
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    position: relative;
+}
+
+#texto1::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+
+#texto1::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+
+
+#texto2{
+    color: rgb(0, 0, 143);
+}
